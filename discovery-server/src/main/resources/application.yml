@@ -1,0 +1,12 @@
+--- 
+eureka: 
+  client: 
+    fetchRegistry: false
+    registerWithEureka: false
+server: 
+  port: 8080
+spring: 
+  application: 
+    name: eureka-101
+    
+    

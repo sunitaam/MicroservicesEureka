@@ -1,0 +1,7 @@
+--- 
+applications: 
+  - 
+    host: eureka-101
+    memory: 512MB
+    name: eureka-name
+    path: target/discovery-server-0.0.1-SNAPSHOT.jar
