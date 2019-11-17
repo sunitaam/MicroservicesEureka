@@ -1,0 +1,11 @@
+---
+applications:
+- name: movieInfoServicee
+  memory: 512MB
+  host: movieInfoService-101
+  domain: cfapps.io
+  path: target/movie-info-service-0.0.1-SNAPSHOT.jar
+  env:
+    spring.profiles.active: cloud
+  services:
+  - eureka-name
