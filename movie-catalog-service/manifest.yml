@@ -1,10 +1,10 @@
 ---
 applications:
-- name: movieInfoService-101
+- name: movieCatalogService-101
   memory: 512MB
-  host: movieInfoService-101
+  host: movieCatalogService-101
   domain: cfapps.io
-  path: target/movie-info-service-0.0.1-SNAPSHOT.jar
+  path: target/movie-catalog-service-0.0.1-SNAPSHOT.jar
   env:
     spring.profiles.active: cloud
   services:
